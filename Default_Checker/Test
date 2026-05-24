@@ -1,0 +1,9 @@
+package com.tka.may24;
+
+public class Test {
+public static void main (String[] args) {
+	Default d1 = new Default() ;
+	d1.b1();
+
+}
+}
