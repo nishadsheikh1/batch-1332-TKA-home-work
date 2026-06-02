@@ -1,0 +1,16 @@
+package com.tka.june2;
+
+public class Ipl {
+	String name;
+	int age;
+	int run;
+	
+	Ipl(String n,int a,int r){
+		name =n;
+		age=a;
+		run=r;
+		
+		
+	}
+
+}
