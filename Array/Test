@@ -1,0 +1,24 @@
+package com.tka.june2;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Ipl[]bv=new Ipl[3];
+		Ipl i1 = new Ipl("virat",32,4000);
+		Ipl i2 = new Ipl("hardik",28,3500);
+		Ipl i3 = new Ipl("rohit",32,4500);
+		
+		bv[0]=i1;
+		bv[1]=i2;
+		bv[2]=i3;
+		  Ipl max = bv[0];	
+		for(int i =0;i<=2;i++) {
+			if(bv[i].run>max.run)
+			max = bv[i];
+		
+		}
+System.out.println("Highest run " + max.name + " with " + max.run + " runs");
+	}
+
+}
